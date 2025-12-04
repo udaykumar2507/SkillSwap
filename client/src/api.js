@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5000', // change later if needed
+  baseURL: 'https://skillswap-u8kg.onrender.com', // change later if needed
 });
 
 api.interceptors.request.use((config) => {
